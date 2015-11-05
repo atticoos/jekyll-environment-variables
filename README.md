@@ -18,3 +18,8 @@ Or require the gems in the configuration
 ```
 gems: ['jekyll/environment-variables']
 ```
+
+## Example
+```html
+Environment variable: {{ site.env.VARIABLE_NAME }}
+```
